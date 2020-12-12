@@ -15,7 +15,7 @@ option(NANODBC_DISABLE_LIBCXX "Do not use libc++, if available." OFF)
 option(NANODBC_DISABLE_TESTS "Do not build tests" OFF)
 option(NANODBC_ENABLE_COVERAGE "Enable test coverage reporting for GCC/clang" OFF)
 option(NANODBC_ENABLE_BOOST "Use Boost for Unicode string convertions (requires Boost.Locale)" OFF)
-option(NANODBC_ENABLE_UNICODE "Enable Unicode support" OFF)
+option(NANODBC_ENABLE_UNICODE "Enable Unicode support" ON)
 option(NANODBC_ENABLE_WORKAROUND_NODATA "Enable SQL_NO_DATA workaround (see Issue #33)" OFF)
 
 ########################################
